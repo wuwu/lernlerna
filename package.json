@@ -1,10 +1,31 @@
 {
   "name": "root",
   "private": true,
-   "scripts": {
-     "publish": "lerna run tsc && lerna publish"
-   },
+  "scripts": {
+    "publish": "lerna run tsc && lerna publish",
+    "build": "lerna exec -- babel src -d dist --ignore test.js"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.9.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "jest": "^24.9.0",
     "lerna": "^3.16.4"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 95,
+        "lines": 95,
+        "statements": 95
+      }
+    },
+    "collectCoverage": true
   }
 }
