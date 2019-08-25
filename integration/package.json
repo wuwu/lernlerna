@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@addtocart/doctor": "0.1.1",
-    "@addtocart/oo-wc-helloworld": "0.0.2",
+    "@addtocart/oo-wc-helloworld": "0.0.3",
     "@addtocart/patient": "0.1.1",
     "@addtocart/scheduler": "0.1.1",
     "web-component-essentials": "0.0.4"

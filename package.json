@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "publish": "lerna run tsc && lerna publish",
-    "build": "lerna exec -- babel src -d dist --ignore test.js"
+    "build": "lerna run tsc && lerna run tsc -m es6 --outDir lib-esm",
+    "build:esm": "lerna run tsc -m es6 --outDir lib-esm"
   },
   "workspaces": [
     "packages/*",
@@ -16,7 +17,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-1": "^6.24.1",
     "jest": "^24.9.0",
-    "lerna": "^3.16.4"
+    "lerna": "^3.16.4",
+    "lerna-update-wizard": "^0.16.0"
   },
   "jest": {
     "coverageThreshold": {
