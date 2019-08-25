@@ -23,7 +23,7 @@
   "keywords": [
     "webcomponent"
   ],
-  "devDependencies": {
+  "dependencies": {
     "lit-element": "^2.2.1"
   }
 }
