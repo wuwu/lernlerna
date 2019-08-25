@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
   <head>
-    <title><%= htmlWebpackPlugin.options.title %></title>
-    <script src="./node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
-    <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <title>test</title>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <script type="module" src="https://unpkg.com/@addtocart/oo-wc-helloworld@0.0.2/lib/helloworld.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <style>
       body {
@@ -18,10 +19,10 @@
         margin: 24px auto;
       }
     </style>
-    <script type="module" src="./index.js"></script>
   </head>
 
   <body>
-    <open-wc-demo></open-wc-demo>
+    <h1>ello fello</h1>
+    <my-element></my-element>
   </body>
 </html>

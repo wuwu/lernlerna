@@ -5,19 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node src/index.ts"
+    "start:ts": "ts-node src/index.ts",
+    "start": "es-dev-server --app-index index.html --node-resolve --watch --open"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "es-dev-server": "^1.15.0",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
   },
   "dependencies": {
     "@addtocart/doctor": "0.1.1",
+    "@addtocart/oo-wc-helloworld": "0.0.2",
     "@addtocart/patient": "0.1.1",
     "@addtocart/scheduler": "0.1.1",
-    "@addtocart/oo-wc-helloworld": "0.0.1"
+    "web-component-essentials": "0.0.4"
   }
 }
