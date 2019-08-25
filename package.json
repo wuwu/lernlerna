@@ -2,11 +2,11 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "publish": "lerna run tsc && lerna run tsc -- -m es6 --outDir lib-esm && lerna publish",
-    "build": "lerna run tsc && lerna run tsc -- -m es6 --outDir lib-esm",
+    "publish": "lerna publish",
+    "build:test1": "lerna run tsc && lerna run tsc -- -m es6 --outDir lib-esm",
     "build:esm": "lerna run tsc -m es6 --outDir lib-esm",
-    "webpack": "webpack",
-    "production": "webpack -p"
+    "build": "webpack",
+    "build:p": "webpack -p"
   },
   "workspaces": [
     "packages/*",
