@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "publish": "lerna run tsc && lerna publish",
-    "build": "lerna run tsc && lerna run tsc -m es6 --outDir lib-esm",
+    "build": "lerna run tsc && lerna run tsc -- -m es6 --outDir lib-esm",
     "build:esm": "lerna run tsc -m es6 --outDir lib-esm"
   },
   "workspaces": [
