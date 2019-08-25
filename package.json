@@ -6,7 +6,8 @@
     "build": "lerna exec -- babel src -d dist --ignore test.js"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "webcomponents/*"
   ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
