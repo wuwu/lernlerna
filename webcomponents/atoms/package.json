@@ -1,6 +1,6 @@
 {
   "name": "@addtocart/oo-wc-helloworld",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "wuwu <wwwuwu@gmail.com>",
   "homepage": "",
@@ -20,7 +20,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1",
     "tsc": "tsc"
   },
-  "keywords": ["webcomponent"],
+  "keywords": [
+    "webcomponent"
+  ],
   "devDependencies": {
     "lit-element": "^2.2.1"
   }
