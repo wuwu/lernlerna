@@ -7,10 +7,12 @@
   resolved "https://registry.yarnpkg.com/@addtocart/doctor/-/doctor-0.1.1.tgz#8ef9620e3e1481a4e4345dd9dd481e4e1b650ac9"
   integrity sha512-I4Cgrtgoc3MiraECdO1yuWSIoU+is+kStkAbCiOkDt/aIX/PLGJn0ddhsppCa+b4IUBTZkyM4u7ObWNVODo5ZA==
 
-"@addtocart/oo-wc-helloworld@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@addtocart/oo-wc-helloworld/-/oo-wc-helloworld-0.0.2.tgz#6871068657b828ef347671d559bbd414209c5a4e"
-  integrity sha512-qkiJKvDebejRC5pC08Bc1CqWoQ3+17xjYBwgxabP/XyLMDVs5u6+BJL7DUn4kahwsNp+AU5BAJIMZoSEYAPAhQ==
+"@addtocart/oo-wc-helloworld@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@addtocart/oo-wc-helloworld/-/oo-wc-helloworld-0.0.3.tgz#f89e40d13c99e230740b0430d0a87e811361ebbf"
+  integrity sha512-Fdj2Ii8iHe49qmAq0K51XjKoGZpHy9fcO/Z/c1+kRunwVK3Hk2JdfMb/K6mEH0dkoTAd1IQqeSK01g8k1kaquA==
+  dependencies:
+    lit-element "^2.2.1"
 
 "@addtocart/patient@0.1.1":
   version "0.1.1"
@@ -1430,6 +1432,18 @@ koa@^2.7.0:
     type-is "^1.6.16"
     vary "^1.1.2"
 
+lit-element@^2.2.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-2.3.1.tgz#73343b978fa1e73d60526c6bb6ad60f53a16c343"
+  integrity sha512-tOcUAmeO3BzwiQ7FGWdsshNvC0HVHcTFYw/TLIImmKwXYoV0E7zCBASa8IJ7DiP4cen/Yoj454gS0qqTnIGsFA==
+  dependencies:
+    lit-html "^1.1.1"
+
+lit-html@^1.1.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.2.1.tgz#1fb933dc1e2ddc095f60b8086277d4fcd9d62cc8"
+  integrity sha512-GSJHHXMGLZDzTRq59IUfL9FCdAlGfqNp/dEa7k7aBaaWD+JKaCjsAk9KYm2V12ItonVaYx2dprN66Zdm1AuBTQ==
+
 lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
@@ -1446,9 +1460,9 @@ lodash.sortby@^4.7.0:
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
 lodash@^4.17.13:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loose-envify@^1.0.0:
   version "1.4.0"
