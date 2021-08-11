@@ -7,10 +7,12 @@
   resolved "https://registry.yarnpkg.com/@addtocart/doctor/-/doctor-0.1.1.tgz#8ef9620e3e1481a4e4345dd9dd481e4e1b650ac9"
   integrity sha512-I4Cgrtgoc3MiraECdO1yuWSIoU+is+kStkAbCiOkDt/aIX/PLGJn0ddhsppCa+b4IUBTZkyM4u7ObWNVODo5ZA==
 
-"@addtocart/oo-wc-helloworld@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@addtocart/oo-wc-helloworld/-/oo-wc-helloworld-0.0.2.tgz#6871068657b828ef347671d559bbd414209c5a4e"
-  integrity sha512-qkiJKvDebejRC5pC08Bc1CqWoQ3+17xjYBwgxabP/XyLMDVs5u6+BJL7DUn4kahwsNp+AU5BAJIMZoSEYAPAhQ==
+"@addtocart/oo-wc-helloworld@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@addtocart/oo-wc-helloworld/-/oo-wc-helloworld-0.0.3.tgz#f89e40d13c99e230740b0430d0a87e811361ebbf"
+  integrity sha512-Fdj2Ii8iHe49qmAq0K51XjKoGZpHy9fcO/Z/c1+kRunwVK3Hk2JdfMb/K6mEH0dkoTAd1IQqeSK01g8k1kaquA==
+  dependencies:
+    lit-element "^2.2.1"
 
 "@addtocart/patient@0.1.1":
   version "0.1.1"
@@ -1430,6 +1432,18 @@ koa@^2.7.0:
     type-is "^1.6.16"
     vary "^1.1.2"
 
+lit-element@^2.2.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-2.5.1.tgz#3fa74b121a6cd22902409ae3859b7847d01aa6b6"
+  integrity sha512-ogu7PiJTA33bEK0xGu1dmaX5vhcRjBXCFexPja0e7P7jqLhTpNKYRPmE+GmiCaRVAbiQKGkUgkh/i6+bh++dPQ==
+  dependencies:
+    lit-html "^1.1.1"
+
+lit-html@^1.1.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.4.1.tgz#0c6f3ee4ad4eb610a49831787f0478ad8e9ae5e0"
+  integrity sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA==
+
 lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
@@ -1632,9 +1646,9 @@ path-is-inside@^1.0.2:
   integrity sha1-NlQX3t5EQw0cEa9hAn+s8HS9/FM=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 picomatch@^2.0.4:
   version "2.0.7"
