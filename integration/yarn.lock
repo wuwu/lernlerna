@@ -7,10 +7,12 @@
   resolved "https://registry.yarnpkg.com/@addtocart/doctor/-/doctor-0.1.1.tgz#8ef9620e3e1481a4e4345dd9dd481e4e1b650ac9"
   integrity sha512-I4Cgrtgoc3MiraECdO1yuWSIoU+is+kStkAbCiOkDt/aIX/PLGJn0ddhsppCa+b4IUBTZkyM4u7ObWNVODo5ZA==
 
-"@addtocart/oo-wc-helloworld@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@addtocart/oo-wc-helloworld/-/oo-wc-helloworld-0.0.2.tgz#6871068657b828ef347671d559bbd414209c5a4e"
-  integrity sha512-qkiJKvDebejRC5pC08Bc1CqWoQ3+17xjYBwgxabP/XyLMDVs5u6+BJL7DUn4kahwsNp+AU5BAJIMZoSEYAPAhQ==
+"@addtocart/oo-wc-helloworld@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@addtocart/oo-wc-helloworld/-/oo-wc-helloworld-0.0.3.tgz#f89e40d13c99e230740b0430d0a87e811361ebbf"
+  integrity sha512-Fdj2Ii8iHe49qmAq0K51XjKoGZpHy9fcO/Z/c1+kRunwVK3Hk2JdfMb/K6mEH0dkoTAd1IQqeSK01g8k1kaquA==
+  dependencies:
+    lit-element "^2.2.1"
 
 "@addtocart/patient@0.1.1":
   version "0.1.1"
@@ -1338,11 +1340,9 @@ jsesc@~0.5.0:
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
 json5@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.0.tgz#e7a0c62c48285c628d20a10b85c89bb807c32850"
-  integrity sha512-8Mh9h6xViijj36g7Dxi+Y4S6hNGV96vcJZr/SrlHh1LR/pEn/8j/+qIBbs44YKl69Lrfctp4QD+AdWLTMqEZAQ==
-  dependencies:
-    minimist "^1.2.0"
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 keygrip@~1.0.3:
   version "1.0.3"
@@ -1430,6 +1430,18 @@ koa@^2.7.0:
     type-is "^1.6.16"
     vary "^1.1.2"
 
+lit-element@^2.2.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-2.5.1.tgz#3fa74b121a6cd22902409ae3859b7847d01aa6b6"
+  integrity sha512-ogu7PiJTA33bEK0xGu1dmaX5vhcRjBXCFexPja0e7P7jqLhTpNKYRPmE+GmiCaRVAbiQKGkUgkh/i6+bh++dPQ==
+  dependencies:
+    lit-html "^1.1.1"
+
+lit-html@^1.1.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.4.1.tgz#0c6f3ee4ad4eb610a49831787f0478ad8e9ae5e0"
+  integrity sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA==
+
 lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
@@ -1502,11 +1514,6 @@ minimist@0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
   integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
-
-minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
 
 mkdirp@0.5.x:
   version "0.5.1"
